@@ -1,0 +1,20 @@
+# Ignore environment and configuration files
+.env
+config.php
+
+# Ignore logs and cache
+*.log
+logs/
+cache/
+tmp/
+
+# Ignore vendor directory (if using Composer)
+vendor/
+composer.lock
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
